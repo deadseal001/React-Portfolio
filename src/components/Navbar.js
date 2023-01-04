@@ -4,14 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 //imports icons
-import {
-  ImHome,
-  ImUser,
-  ImBriefcase,
-  ImProfile,
-  ImPhone,
-  ImBlog,
-} from "react-icons/im";
+import {ImHome, ImUser, ImBriefcase, ImProfile, ImPhone} from "react-icons/im";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -97,17 +90,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <ImPhone style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-              className="nav-item"
-                href="https://medium.com/@peterguo1983"//have to change to a new one
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
 
