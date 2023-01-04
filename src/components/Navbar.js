@@ -11,7 +11,7 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
-    if (window.scrollY >= 20) {
+    if (window.scrollY >= 40) {
       updateNavbar(true);
     } else {
       updateNavbar(false);
@@ -24,71 +24,42 @@ function NavBar() {
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
         <Navbar.Brand as={Link} to="/" onClick={() => updateExpanded(false)}>
-               <h3 className="nav-header" alt="header">&lt;Wenbo Li /&gt;</h3>
+               <h3 className="nav-header" alt="header">Wenbo Li</h3>
         </Navbar.Brand>
         {/* toggle to burger menu on small screen devices */}
 
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => {updateExpanded(expand ? false : "expanded");}}>
         </Navbar.Toggle>
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
               {/* navbar items */}
             <Nav.Item>
-              <Nav.Link
-              className="nav-item"
-              as={Link}
-              to="/"
-              onClick={() => updateExpanded(false)}>
+              <Nav.Link className="nav-item" as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <ImHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-              className="nav-item"
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link className="nav-item" as={Link} to="/about" onClick={() => updateExpanded(false)}>
                 <ImUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
-
             <Nav.Item>
-              <Nav.Link
-              className="nav-item"
-                as={Link}
-                to="/projects"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link className="nav-item" as={Link} to="/projects" onClick={() => updateExpanded(false)}>
                 <ImBriefcase style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-              className="nav-item"
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link className="nav-item" as={Link} to="/resume" onClick={() => updateExpanded(false)}>
                 <ImProfile style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-              className="nav-item"
-                as={Link}
-                to="/contact"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link className="nav-item" as={Link} to="/contact" onClick={() => updateExpanded(false)}>
                 <ImPhone style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>

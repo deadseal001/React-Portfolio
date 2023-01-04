@@ -3,25 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.png";
 import Typewriter from "typewriter-effect";
 
-import emoji from "react-easy-emoji";
 // Animation
 import { motion } from "framer-motion";
 
-const contentVariants = {
-  initial: {
-    translateX: "-100vw",
-    opacity: 0,
-  },
-
-  animate: {
-    translateX: "0vw",
-    opacity: 1,
-    transition: {
-      duration: 2,
-      when: "beforeChildren",
-    },
-  },
-};
+const contentVariants = { initial: { translateX: "-100vw", opacity: 0}, animate: { translateX: "0vw", opacity: 1, transition: { duration: 2, when: "beforeChildren"}}};
 
 function Home() {
   return (

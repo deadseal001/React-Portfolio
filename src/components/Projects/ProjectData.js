@@ -2,7 +2,7 @@ const projectData = [
     {
       id: 1,
       image_path: "https://github.com/DazedChou/Astronomy-Dashboard/blob/main/FullWebsite.gif",
-      title: "AstroDash",
+      title: "Virtual Lab Notebook",
       description: "Astronomy Dashboard uses geolocation functions and weather API to present the weather conditions such as visibility and cloudiness, and moon phases.",
       repo_url: "https://github.com/DazedChou/Astronomy-Dashboard",
       deployed_url: "https://dazedchou.github.io/Astronomy-Dashboard"
