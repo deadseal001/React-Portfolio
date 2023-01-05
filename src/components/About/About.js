@@ -2,17 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../assets/profile.png";
 import Card from "react-bootstrap/Card";
+import Typewriter from "typewriter-effect";
 //Imports tech icons
 import {DiHtml5, DiJavascript1, DiReact, DiNodejs, DiMongodb, DiGit, DiHeroku} from "react-icons/di";
-
-import {
-  SiMysql,
-  SiTailwindcss,
-} from "react-icons/si";
-
-import { 
-  BsFillBootstrapFill
-} from "react-icons/bs";
+import {SiMysql, SiTailwindcss} from "react-icons/si";
+import {BsFillBootstrapFill} from "react-icons/bs";
 
 
 function About() {
@@ -24,6 +18,20 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               About <strong className="yellow">Me</strong>
             </h1>
+            <div style={{ padding: 5, textAlign: "left" }}>
+              <Typewriter
+                options={{
+                  strings: [
+                    "I am a Full Stack MERN Developer.",
+                    
+                    "I'm a Molecular Biology Scientist.",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 80,
+                }}
+              />
+              </div>
             <Card className="aboutme-card-view">
               <Card.Body>
                 <blockquote className="blockquote mb-0">

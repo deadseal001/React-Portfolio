@@ -1,35 +1,49 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 import Navbar from './components/Navbar';
 import About from "./components/About/About";
-import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
+import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
+  //useEffect(()=>{document.location= "/about"},[]); //loading after loading
+  // function loadabout () {
+  //   document.location="/about";
+  // };
+  // window.addEventListener("load", loadabout);
+
+  //const [currentPage, setCurrentPage] = useState('Home');
+
   return (
     <Router>
       <div className="App">
         <Navbar/>
         <Routes>
-          <Route path="/" exact element={<Home/>} />
-          <Route path="/about" element={<About/>} />
+          <Route path="/" exact element={<About/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/Resume" element={<Resume/>} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>
         <Footer />
       </div>
     </Router>
   );
+
+
+
 }
+
+
+
 
 export default App;

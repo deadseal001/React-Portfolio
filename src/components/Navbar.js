@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 //imports icons
-import {ImHome, ImUser, ImBriefcase, ImProfile, ImPhone} from "react-icons/im";
+import {ImUser, ImBriefcase, ImProfile, ImPhone} from "react-icons/im";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -20,6 +20,13 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  
+  let currentPage=document.location.pathname;
+  console.log("outside"+currentPage);
+  useEffect(()=>{
+    console.log("inside"+currentPage);
+  },[document.location.pathname])
+
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
@@ -34,15 +41,10 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
               {/* navbar items */}
-            <Nav.Item>
-              <Nav.Link className="nav-item" as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <ImHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className="nav-item" as={Link} to="/about" onClick={() => updateExpanded(false)}>
-                <ImUser style={{ marginBottom: "2px" }} /> About
+              <Nav.Link className="nav-item" as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <ImUser style={{ marginBottom: "2px" }} /> About Me
               </Nav.Link>
             </Nav.Item>
 

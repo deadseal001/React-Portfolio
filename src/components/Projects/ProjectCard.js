@@ -13,13 +13,15 @@ function ProjectCard (props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        <div class="d-flex justify-content-around">
         <Button variant="primary" href={props.repo_url} target="_blank">
           <BiLinkExternal /> View Repo
         </Button>  
-        
+         
         <Button variant="primary" href={props.deployed_url} target="_blank">
           <BiLinkExternal /> View App
         </Button>
+        </div>
       </Card.Body>
     </Card>
   );
