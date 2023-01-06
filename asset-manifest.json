@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.c778a32c.css",
+    "main.js": "/React-Portfolio/static/js/main.065fcabc.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/labnotebook.png": "/React-Portfolio/static/media/labnotebook.8e76e99ab62070620711.png",
+    "static/media/movie-search.png": "/React-Portfolio/static/media/movie-search.84820a8c5216aeab9967.png",
+    "static/media/profile.png": "/React-Portfolio/static/media/profile.3c9e2b6c305c64614e92.png",
+    "static/media/Wenbo_Li_CV.pdf": "/React-Portfolio/static/media/Wenbo_Li_CV.8077ce99d3ff5113b45e.pdf",
+    "static/media/coding2.jpeg": "/React-Portfolio/static/media/coding2.3d4e94c50f5e4e8fcfa4.jpeg",
+    "static/media/weather-dashboard.png": "/React-Portfolio/static/media/weather-dashboard.736547f6ed58e044e858.png",
+    "static/media/daily-planer.png": "/React-Portfolio/static/media/daily-planer.a0708e1e0e1a66a8fa3f.png",
+    "static/media/handshake.png": "/React-Portfolio/static/media/handshake.7c952267191600191559.png",
+    "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.19c7f2b337e09945f776.png",
+    "static/media/codequiz.png": "/React-Portfolio/static/media/codequiz.f526079a1418ed147dd9.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.c778a32c.css.map": "/React-Portfolio/static/css/main.c778a32c.css.map",
+    "main.065fcabc.js.map": "/React-Portfolio/static/js/main.065fcabc.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c778a32c.css",
+    "static/js/main.065fcabc.js"
+  ]
+}
