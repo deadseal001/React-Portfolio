@@ -16,7 +16,7 @@ function About() {
           {/* left side */}
           <Col md={7} style={{justifyContent: "center", paddingTop: "30px",  paddingBottom: "50px",}}>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <strong className="yellow">Me</strong>
+              About Me
             </h1>
             <div style={{ padding: 5, textAlign: "left" }}>
               <Typewriter
@@ -38,12 +38,11 @@ function About() {
                   <p style={{ textAlign: "justify" }}>
                     Hello, My name is <span className="yellow">Wenbo Li </span>
                     located in <span className="yellow">Houston, TX</span>.
-                    <br />I hold a PhD Degree in Development Biology. 
-                    {/* I majored in Biology in college and have been working as an English - Chinese medical translator after graduation for more than 14 years. 4 years after moving to the Bay Area and inspired by its entrepreneurial atmosphere, I felt it's about time to make a change by pursuing a coding career. 
-                    
-                    That's how it started. I am now currently trained at UC Berkeley Extension Coding Bootcamp for Full Stack Web Development. Do not hesitate to contact me if you need my services.
-
-                    Looking forward to working with ingenious teams on challenging projects. */}
+                    <br /> 
+                    I majored in Molecular Biology and have been worked as a research scientist for almost 10 years. 
+                    I started coding since I was in middle school. I felt it's about time to make a change by pursuing a coding career.<br/>
+                    I am now currently being trained at Rice University Extension Coding Bootcamp for Full Stack Web Development. Do not hesitate to contact me if you need my services.
+                    Looking forward to working with ingenious teams on challenging projects. 
                     <br />
                   </p>
                 </blockquote>

@@ -10,7 +10,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
         <h1 className="project-heading text-center">
-          Recent <strong className="yellow">Work</strong>
+          Projects
         </h1>
 
         {/* <p>Below are some of my recent projects</p> */}

@@ -1,52 +1,61 @@
+import notebook from "../../assets/labnotebook.png";
+import moviesearch from "../../assets/movie-search.png";
+import weather from "../../assets/weather-dashboard.png";
+import planner from "../../assets/daily-planer.png";
+import notetaker from "../../assets/notetaker.png";
+import codequiz from "../../assets/codequiz.png";
+
+
+
 const projectData = [
     {
       id: 1,
-      image_path: "https://github.com/DazedChou/Astronomy-Dashboard/blob/main/FullWebsite.gif",
+      image_path: notebook,
       title: "Virtual Lab Notebook",
-      description: "Astronomy Dashboard uses geolocation functions and weather API to present the weather conditions such as visibility and cloudiness, and moon phases.",
-      repo_url: "https://github.com/DazedChou/Astronomy-Dashboard",
-      deployed_url: "https://dazedchou.github.io/Astronomy-Dashboard"
+      description: "SQL/Node/Formidable",
+      repo_url: "https://github.com/emsaw721/lab-rats",
+      deployed_url: "https://obscure-lake-69191.herokuapp.com"
     },
     {
       id: 2,
-      image_path: "../../assets/codequiz.gif",
-      title: "CodeQuiz",
-      description: "CodeQuiz is a timed coding quiz with multiple-choice questions.",
-      repo_url: "https://github.com/magickw/CodeQuiz",
-      deployed_url: "https://magickw.github.io/CodeQuiz"
+      image_path: moviesearch,
+      title: "Movie Search App",
+      description: "API/Tailwindcss/Javascript",
+      repo_url: "https://github.com/deadseal001/movie-search-app",
+      deployed_url: "https://deadseal001.github.io/movie-search-app/"
     },
     {
       id: 3,
-        image_path: "../../assets/WeatherDashboard.gif",
-        title: "Weather Dashboard",
-        description: "It's a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
-        repo_url: "https://github.com/magickw/WeatherDashboard",
-        deployed_url: "https://magickw.github.io/WeatherDashboard"
-      },
-      {
-        id: 4,
-        image_path: "../../assets/scheduler.gif",
-        title: "Work Day Scheduler",
-        description: "This simple calendar application that allows a user to save and delete events for each hour of the day.",
-        repo_url: "https://github.com/magickw/Work-Day-Scheduler",
-        deployed_url: "https://magickw.github.io/Work-Day-Scheduler/"
-      },
-      {
-        id: 5,
-        image_path: "../../assets/notetaker.gif",
-        title: "Note Taker",
-        description: "This application allows you to write notes, save notes and deletes that are being stored in a db.json file.",
-        repo_url: "https://github.com/magickw/NoteTaker",
-        deployed_url: "https://notetaker-guo.herokuapp.com/"
-      },
-      {
-        id: 6,
-        image_path: "../../assets/techblog.gif",
-        title: "Tech Blog",
-        description: "This application is a tech blog which allows the developers to publish blog posts, make comments and create accounts using MVC architectural structure, Handlebars.js, Sequelize.",
-        repo_url: "https://github.com/magickw/MVCTechBlog",
-        deployed_url: "https://guotechblog.herokuapp.com/"
-      }
+      image_path: weather,
+      title: "Weather DashBorad",
+      description: "API/Javascript",
+      repo_url: "https://github.com/deadseal001/weather-dashboard",
+      deployed_url: "https://deadseal001.github.io/weather-dashboard/"
+    },
+    {
+      id: 4,
+      image_path: planner,
+      title: "Dailay Planer",
+      description: "Javascript/moment",
+      repo_url: "https://github.com/deadseal001/daily-planner",
+      deployed_url: "https://deadseal001.github.io/daily-planner/"
+    },
+    {
+      id: 5,
+      image_path: notetaker,
+      title: "Notetaker",
+      description: "Javascript/Heroku.",
+      repo_url: "https://github.com/deadseal001/Note-Taker",
+      deployed_url: "https://note-taker-wl.herokuapp.com/"
+    },
+    {
+      id: 6,
+      image_path: codequiz,
+      title: "JavaScript Quiz",
+      description: "JavaScript.",
+      repo_url: "https://github.com/deadseal001/code-quizg",
+      deployed_url: "https://deadseal001.github.io/code-quiz/"
+    }
 ];
 
 export default projectData;

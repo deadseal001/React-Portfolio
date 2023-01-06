@@ -1,5 +1,5 @@
 
-html {
+/* html {
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
@@ -13,12 +13,25 @@ html {
   );
 
   --imp-text-color: hsl(62, 85%, 41%);
-}
+} */
+
+body {
+  background-image: url("./assets/coding2.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #090606;
+ }
 
 .yellow {
   color: var(--imp-text-color) !important;
 }
 
+.project-heading {
+  color:rgb(250, 250, 250)
+}
 
 #no-scroll {
   overflow: hidden;
@@ -374,8 +387,8 @@ html {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   text-align: center !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
+  background-color: black !important;
+  opacity: 0.8 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }

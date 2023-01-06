@@ -21,11 +21,11 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   
-  let currentPage=document.location.pathname;
-  console.log("outside"+currentPage);
-  useEffect(()=>{
-    console.log("inside"+currentPage);
-  },[document.location.pathname])
+  // let currentPage=document.location.pathname;
+  // console.log("outside"+currentPage);
+  // useEffect(()=>{
+  //   console.log("inside"+currentPage);
+  // },[document.location.pathname])
 
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
