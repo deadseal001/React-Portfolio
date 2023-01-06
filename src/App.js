@@ -30,9 +30,10 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" exact element={<About/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/Resume" element={<Resume/>} />
-          <Route path="/contact" element={<Contact/>} />
+          <Route path="/React-Portfolio/" exact element={<About/>} />
+          <Route path="/React-Portfolio/projects" element={<Projects/>} />
+          <Route path="/React-Portfolio/Resume" element={<Resume/>} />
+          <Route path="/React-Portfolio/contact" element={<Contact/>} />
         </Routes>
         <Footer />
       </div>

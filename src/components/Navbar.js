@@ -43,25 +43,25 @@ function NavBar() {
               {/* navbar items */}
 
             <Nav.Item>
-              <Nav.Link className="nav-item" as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link className="nav-item" as={Link} to="/React-Portfolio/" onClick={() => updateExpanded(false)}>
                 <ImUser style={{ marginBottom: "2px" }} /> About Me
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className="nav-item" as={Link} to="/projects" onClick={() => updateExpanded(false)}>
+              <Nav.Link className="nav-item" as={Link} to="/React-Portfolio/projects" onClick={() => updateExpanded(false)}>
                 <ImBriefcase style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className="nav-item" as={Link} to="/resume" onClick={() => updateExpanded(false)}>
+              <Nav.Link className="nav-item" as={Link} to="/React-Portfolio/resume" onClick={() => updateExpanded(false)}>
                 <ImProfile style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className="nav-item" as={Link} to="/contact" onClick={() => updateExpanded(false)}>
+              <Nav.Link className="nav-item" as={Link} to="/React-Portfolio/contact" onClick={() => updateExpanded(false)}>
                 <ImPhone style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
