@@ -42,6 +42,7 @@ Get into the folder and run the following commands to install the dependencies:
 The link to the deployed application is: https://deadseal001.github.io/React-Portfolio/.
 
 ## Screenshot
+<img width="1297" alt="Screenshot 2023-01-05 at 11 15 14 PM" src="https://user-images.githubusercontent.com/110753777/210934999-4ce3180c-3b8f-4f5e-aef2-a0b556dd43df.png">
 
 
 
