@@ -18,13 +18,13 @@ This application is my professional portfolio website built with reactjs.
 
 
 ## Installation and usage
- Copy this repo to your local machine. 
+ Copy this repo to your local machine.     
 `git clone git@github.com:deadseal001/React-Portfolio.git`
 
 Get into the folder and run the following commands to install the dependencies: 
 
-`cd React-Portfolio`
-`npm install`
+`cd React-Portfolio`     
+`npm install`    
 `npm start`
 
 ## Built With
