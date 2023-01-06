@@ -2,7 +2,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
 //imports social icons
-import { FaGithubSquare, FaLinkedin, AiOutlineMail} from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
 import { ImEnvelop } from "react-icons/im";
 import handshake from "../../assets/handshake.png";
 import React, { useEffect } from "react";
@@ -19,15 +19,15 @@ function Contact() {
               <Col md={5} style={{ justifyContent: "end", paddingTop: "30px", paddingBottom: "50px"}}>
                 <h3 className="title-left">Get in Touch</h3>
                 <div className="social-icons">
-                  <a href="https://www.linkedin.com/in/wenbo-li-25791937/" rel="noreferrer" target="_blank" class="fa-2xl">
+                  <a href="https://www.linkedin.com/in/wenbo-li-25791937/" rel="noreferrer" target="_blank">
                     <FaLinkedin size={40}/>
                   </a>
 
-                  <a href="https://github.com/deadseal001" rel="noreferrer" target="_blank" class="fa-2xl">
+                  <a href="https://github.com/deadseal001" rel="noreferrer" target="_blank">
                     <FaGithubSquare size={40}/>
                   </a>
 
-                  <a href="mailto:liwenbo4936@gmail.com" rel="noreferrer" target="_blank" class="fa-2xl">
+                  <a href="mailto:liwenbo4936@gmail.com" rel="noreferrer" target="_blank">
                     <ImEnvelop size={40}/>
                   </a>
                 </div>

@@ -18,7 +18,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               About Me
             </h1>
-            <div style={{ padding: 5, textAlign: "left" }}>
+            <div style={{ padding: 25, textAlign: "left" }}>
               <Typewriter
                 options={{
                   strings: [
