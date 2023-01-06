@@ -35,7 +35,7 @@ function About() {
             <Card className="aboutme-card-view">
               <Card.Body>
                 <blockquote className="blockquote mb-0">
-                  <h5 style={{ textAlign: "justify" }}>
+                  <h4 className="abouttext" style={{ textAlign: "justify" }}>
                     Hello, My name is <span className="yellow">Wenbo Li </span>
                     located in <span className="yellow">Houston, TX</span>.
                     <br /> 
@@ -44,7 +44,7 @@ function About() {
                     I am now currently being trained at Rice University Extension Coding Bootcamp for Full Stack Web Development. Do not hesitate to contact me if you need my services.
                     Looking forward to working with ingenious teams on challenging projects. 
                     <br />
-                  </h5>
+                  </h4>
                 </blockquote>
               </Card.Body>
             </Card>

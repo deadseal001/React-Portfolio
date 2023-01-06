@@ -393,6 +393,13 @@ body {
   height: 100% !important;
 }
 
+.abouttext {
+  color: white;
+  background-color:black;
+  opacity: 0.6
+}
+
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
