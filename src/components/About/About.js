@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import profileImg from "../../assets/profile.png";
+import profileImg from "../../assets/profile.jpg";
 import Card from "react-bootstrap/Card";
 import Typewriter from "typewriter-effect";
 //Imports tech icons
