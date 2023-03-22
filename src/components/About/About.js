@@ -22,9 +22,9 @@ function About() {
               <Typewriter
                 options={{
                   strings: [
-                    "I am a Full Stack MERN Developer.",
+                    "I am a Full Stack MERN Developer now.",
                     
-                    "I'm a Molecular Biology Scientist.",
+                    "I was a Molecular Biology Scientist.",
                   ],
                   autoStart: true,
                   loop: true,
@@ -39,10 +39,11 @@ function About() {
                     Hello, My name is <span className="yellow">Wenbo Li </span>
                     located in <span className="yellow">Houston, TX</span>.
                     <br /> 
-                    I majored in Molecular Biology and have been worked as a research scientist for almost 10 years. 
-                    I started coding since I was in middle school and I quite enjoyed it. I felt it's about time to make a change by pursuing a coding career.<br/>
-                    I am now currently being trained at Rice University Extension Coding Bootcamp for Full Stack Web Development. Do not hesitate to contact me if you need my services.
-                    Looking forward to working with ingenious teams on challenging projects. 
+                    Hello, I'm a Molecular Biology graduate based in Houston, TX, with several years of experience as a research scientist. My strong foundation in scientific research has honed my problem-solving skills and ability to adapt to new challenges. My passion for coding began in middle school, and over the years, it has grown into a strong desire to transition into a coding career.
+                    <br />
+                    Recently, I successfully completed an intensive Full Stack Web Development Bootcamp at Rice University. This immersive program equipped me with practical skills and hands-on experience in the tech industry, building upon my previous experience in biology research.
+                    <br />
+                    If you're in need of a dedicated and skilled web developer with a unique background in scientific research and intensive bootcamp training, please don't hesitate to get in touch with me. I am eager to collaborate with innovative teams on challenging projects and contribute to their success. I look forward to connecting with you!
                     <br />
                   </h4>
                 </blockquote>
