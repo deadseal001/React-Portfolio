@@ -43,7 +43,7 @@ function About() {
                     <br />
                     Recently, I successfully completed an intensive Full Stack Web Development Bootcamp at Rice University. This immersive program equipped me with practical skills and hands-on experience in the tech industry, building upon my previous experience in biology research.
                     <br />
-                    If you're in need of a dedicated and skilled web developer with a unique background in scientific research and intensive bootcamp training, please don't hesitate to get in touch with me. I am eager to collaborate with innovative teams on challenging projects and contribute to their success. I look forward to connecting with you!
+                    If you're in need of a dedicated and skilled web developer with the latest web development expertise, please don't hesitate to get in touch with me. I am eager to collaborate with innovative teams on challenging projects and contribute to their success. I look forward to connecting with you!
                     <br />
                   </h4>
                 </blockquote>

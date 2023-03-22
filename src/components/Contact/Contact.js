@@ -19,7 +19,7 @@ function Contact() {
               <Col md={5} style={{ justifyContent: "end", paddingTop: "30px", paddingBottom: "50px"}}>
                 <h3 className="title-left">Get in Touch</h3>
                 <div className="social-icons">
-                  <a href="https://www.linkedin.com/in/wenbo-li-25791937/" rel="noreferrer" target="_blank">
+                  <a href="https://www.linkedin.com/in/wenbo-li-3a999326a/" rel="noreferrer" target="_blank">
                     <FaLinkedin size={40}/>
                   </a>
 
