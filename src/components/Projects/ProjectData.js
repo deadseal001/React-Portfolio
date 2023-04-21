@@ -28,7 +28,7 @@ const projectData = [
     {
       id: 3,
       image_path: oink,
-      title: "OINK The Buget management app",
+      title: "OINK The Budget management app",
       description: "MERN/Apollo Graphql.",
       repo_url: "https://github.com/emsaw721/stacks-on-stacks",
       deployed_url: "https://guarded-gorge-65763.herokuapp.com/"
@@ -44,7 +44,7 @@ const projectData = [
     {
       id: 5,
       image_path: planner,
-      title: "Dailay Planer",
+      title: "Daily Planer",
       description: "Javascript/moment",
       repo_url: "https://github.com/deadseal001/daily-planner",
       deployed_url: "https://deadseal001.github.io/daily-planner/"
