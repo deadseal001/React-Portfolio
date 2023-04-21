@@ -41,7 +41,7 @@ function About() {
                     <br /> 
                     Hello, I'm a Molecular Biology graduate based in Houston, TX, with several years of experience as a research scientist. My strong foundation in scientific research has honed my problem-solving skills and ability to adapt to new challenges. My passion for coding began in middle school, and over the years, it has grown into a strong desire to transition into a coding career.
                     <br />
-                    Recently, I successfully completed an intensive Full Stack Web Development Bootcamp at Rice University. This immersive program equipped me with practical skills and hands-on experience in the tech industry, building upon my previous experience in biology research.
+                    Recently, I successfully completed an intensive Full Stack Web Development Bootcamp at Rice University. This immersive program equipped me with practical skills and hands-on experience in the tech industry. After the bootcamp, I continued to expand my knowledge by self-learning Java and Vue.js, further enhancing my web development expertise.
                     <br />
                     If you're in need of a dedicated and skilled web developer with the latest web development expertise, please don't hesitate to get in touch with me. I am eager to collaborate with innovative teams on challenging projects and contribute to their success. I look forward to connecting with you!
                     <br />
