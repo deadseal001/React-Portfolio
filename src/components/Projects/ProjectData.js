@@ -5,6 +5,7 @@ import planner from "../../assets/daily-planer.png";
 import notetaker from "../../assets/notetaker.png";
 import codequiz from "../../assets/codequiz.png";
 import oink from "../../assets/oink.png";
+import techblog from "../../assets/tech_blog.jpeg";
 
 
 
@@ -64,6 +65,14 @@ const projectData = [
       description: "JavaScript.",
       repo_url: "https://github.com/deadseal001/code-quizg",
       deployed_url: "https://deadseal001.github.io/code-quiz/"
+    },
+    {
+      id: 8,
+      image_path: techblog,
+      title: "Tech Blog",
+      description: "MySQL/handlebars.",
+      repo_url: "https://github.com/deadseal001/Tech_Blog",
+      deployed_url: "https://tech-blog-wl.herokuapp.com/"
     }
 
 ];
