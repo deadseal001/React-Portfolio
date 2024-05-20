@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import {DiHtml5, DiJavascript1, DiReact, DiNodejs, DiMongodb, DiGit, DiHeroku} from "react-icons/di";
 import {SiMysql,SiTailwindcss} from "react-icons/si";
 import {BsFillBootstrapFill} from "react-icons/bs";
-import resumed from "../../assets/Wenbo_Li_resume 2024.pdf"
+import resumed from "../../assets/Wenbo_Li_resume_2024.pdf"
 
 
 function Resume() {
